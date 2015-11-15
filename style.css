@@ -10,5 +10,7 @@ h1 {
 
 h2 {
   background-color: #be0081;
-  outline: solid thick black;
+  outline: solid thin black;
+  display: inline-block;
+  margin: auto;
 }
