@@ -13,4 +13,5 @@ h2 {
   outline: solid thin black;
   display: inline-block;
   margin: auto;
+  padding: 10px 10px 10px 10px;
 }
