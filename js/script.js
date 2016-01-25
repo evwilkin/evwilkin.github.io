@@ -85,7 +85,7 @@ var winnerMiddleLeft = function() {
 		(
 			(middleLeftTile.className === middleCenterTile.className) && (middleCenterTile.className === middleRightTile.className)
 		) || (
-			(topLeftTile.className === middleLeftTile.className) && (middleLeftTile.className === middleRightTile.className)
+			(topLeftTile.className === middleLeftTile.className) && (middleLeftTile.className === bottomLeftTile.className)
 		)
 	) {
 		alert(middleLeftTile.innerHTML + " is the winner!");
