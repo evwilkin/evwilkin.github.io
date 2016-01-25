@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Evan Wilkinson</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Evan Wilkinson</h1>
-    <h2>Photographer</h2>
-    <h2>Developer</h2>
-    <h2>Musician</h2>
-  </body>
-
-
+<head>
+	<title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Tic-Tac-Toe</h1>
+	<p class="rules">Click a square to play your turn.</p>
+	<p class="rules">Squares already taken cannot be selected.</p>
+	<p class="rules">Three squares in a row (up/down/diagonal) wins the game.</p>
+	<h3>Turn: <span>X</span></h3>
+<!-- Create 3x3 game grid -->
+	<div class="blank" id="topLeft"></div>
+	<div class="blank" id="topCenter"></div>
+	<div class="blank" id="topRight"></div>
+	<br />
+	<div class="blank" id="middleLeft"></div>
+	<div class="blank" id="middleCenter"></div>
+	<div class="blank" id="middleRight"></div>
+	<br />
+	<div class="blank" id="bottomLeft"></div>
+	<div class="blank" id="bottomCenter"></div>
+	<div class="blank" id="bottomRight"></div>
+	<br />
+<!-- Start Over button -->
+	<button id="startOver">Start Over</button>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
 </html>
