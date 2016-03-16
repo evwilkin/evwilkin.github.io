@@ -1,0 +1,304 @@
+body {
+	width: 100vw;
+	overflow: hidden;
+}
+
+div.instructions {
+	margin: 0 auto 0 auto;
+	width: 60vw;
+	font-family: 'Slackey', cursive;
+	color: white;
+	background-color: rgba(33,150,49,0.75);
+	border-radius: 20px;
+	border: 5px solid rgba(255,255,255,0.9);
+}
+
+div.instructionText {
+	padding: 10px;
+	text-align: center;
+	margin: -20px auto;
+	width: 60vw;
+	color: white;
+}
+
+div.forms.container {
+	width: 60vw;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#player1Name {
+	float: left;
+}
+
+#player2Name {
+	float: right;
+}
+
+div.button {
+	width: 32vw;
+	margin: 20px auto;
+}
+
+input.form-control {
+	font-size: 2em;
+	height: 2em;
+}
+
+h1 {
+	text-align: center;
+	margin: 0 auto 30px auto;
+	font-family: 'Slackey', cursive;
+	font-size: 2.5em;
+	color: black;
+}
+
+h2 {
+	font-size: 2.3em;
+	margin-bottom: 30px;
+}
+
+h3{
+	margin-bottom: 80px 0;
+}
+
+p {
+	font-size: 1.5em;
+	font-family: Arial Black;
+}
+
+span.large {
+	font-size: 3em;
+}
+
+div.firstScreen {
+	z-index: 1;
+	padding-top: 30px;
+	background-image: url("../images/map.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	color: black;
+	width: 100vw;
+	height: 100vh;
+	float: left;
+}
+
+button.startGame {
+	width: 30vw;
+	height: 10vw;
+	margin-top: 20px;
+	font-size: 2em;
+	background-color: rgba(90,90,90,0.8);
+	border: solid 3px black;
+	position: relative;
+	bottom: 0.8em;
+}
+
+button.startGame:hover {
+	background-color: #25B7E8;
+}
+
+div.flex {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.gameBoard {
+	z-index: 2;
+	background-image: url("../images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	width: 100vw;
+	height: 100vh;
+	font-size: 2em;
+}
+
+#statesCount {
+	border: 5px solid white;
+	height: 50px;
+	font-size: 1em;
+	color: white;
+	background-color: #3BD476;
+	margin-top: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 0 3px #3BD476;
+}
+
+#statesLength {
+	padding-left: 25px;
+}
+
+div.question {
+	border: 5px solid white;
+	border-bottom: 3px solid white;
+	text-align: center;
+	height: 150px;
+	background-color: #3BD476;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	font-size: 3.5em;
+}
+
+div.answer {
+	text-align: center;
+	font-size: .6em;
+	background-color: white;
+	border: 4px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	height: 200px;
+	color: black;
+	box-shadow: 0 0 0 3px white;
+	margin-top: 10px;
+}
+
+#optionOne {
+	margin-top: 65px;
+}
+
+#optionFour {
+	margin-top: 65px;
+}
+
+footer {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+	color: gray;
+	border-bottom: 0;
+	width: 100vw;
+}
+
+li {
+	list-style-type: none;
+}
+
+div.scoreCard {
+	font-size: 1em;
+	background-color: gold;
+	border-bottom: 5px solid black;
+	border-top: 3px solid black;
+	height: 50px;
+	color: black;
+}
+
+div.scoreCard span {
+	padding: 7px 0 0 15px;
+}
+
+#playerOneTurn {
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+	border-top: 3px solid black;
+	border-bottom-left-radius: 20px;
+}
+
+#playerTwoTurn {
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-top: 3px solid black;
+	border-bottom-right-radius: 20px;
+}
+
+div.race {
+	position: absolute;
+	bottom: 3%;
+	height: 28%;
+	width: 100%;
+}
+
+.hasTurn {
+
+}
+
+.cars {
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	z-index: 100;
+	background-repeat: no-repeat;
+	bottom: 0;
+	background-position: center bottom;
+	width: 25%;
+}
+
+#car1 {
+	background-image: url("../images/woman.svg");
+	float: left;
+	left: 5%;
+}
+
+#car2 {
+	float: right;
+	right: 5%;
+	background-image: url("../images/man.svg");
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+}
+div.yellow-line {
+	background-color: gold;
+	width: 100vw;
+	height: 2vh;
+	position: absolute;
+}
+
+div.yellow-line.top {
+	bottom: 35%;
+}
+
+div.yellow-line.bottom {
+	top: 35%;
+}
+
+#userName {
+	text-transform: capitalize;
+}
+
+#userNameTwo {
+	text-transform: capitalize;
+}
+
+.black {
+	background-color: black;
+	width: 50%;
+	height: 25%;
+	float: left;
+}
+
+.white {
+	background-color: white;
+	width: 50%;
+	height: 25%;
+	float: left;
+}
+
+#finishLine {
+	width: 3vw;
+	height: 100%;
+	position: absolute;
+	right: 15%;
+}
+
+ul {
+	margin: 0 auto;
+	text-align: center;
+}
+
+li.sources {
+	display: inline;
+	margin: 0 25px;
+}
