@@ -1,0 +1,87 @@
+@font-face {
+    font-family:"Lora-Regular", serif;
+    src: url("Lora-Regular.ttf")
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+}
+
+body {
+  height: 2000px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', serif;
+}
+
+p {
+  font-family: 'Lora-Regular', serif;
+  font-size: 2em;
+}
+
+#portrait {
+  float: right;
+  width: 40%;
+}
+
+i,a.brand-logo, nav ul li a {
+  color: black;
+}
+
+a.brand-logo {
+  font-family: 'Alfa Slab One', serif;
+}
+
+div.title {
+  position: absolute;
+  bottom: 8%;
+  width: 100%;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.evan {
+  font-size: 9em;
+  font-family: 'Alfa Slab One', serif;
+}
+
+.tagline {
+  position: relative;
+  top: -15%;
+}
+
+h4.webdev {
+  font-family: 'Lora-Regular', serif;
+  font-size: 4em;
+  margin-top: -50px;
+  text-align: center;
+}
+
+header#home {
+  position: relative;
+  height: 100vh;
+}
+
+i {
+  font-size: 3em;
+}
+
+section {
+  height: 95vh;
+  margin-top: 4vh;
+}
+
+  /*background-size: auto 600px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("../images/GA_Headshot.jpg")*/
