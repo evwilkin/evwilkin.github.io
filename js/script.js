@@ -3,11 +3,11 @@ $(document).ready(function(){
   $(".button-collapse").sideNav();
 
   // Run fullpage.js
-  $('#fullpage').fullpage({
-    menu: ".nav",
-    autoScrolling: false,
-    resize: true
-  });
+  // $('#fullpage').fullpage({
+  //   menu: ".nav",
+  //   autoScrolling: false,
+  //   resize: true
+  // });
 
   // Fade in home page
   $("#developer").fadeIn(1000).delay(1000).removeClass("hide");
@@ -26,14 +26,14 @@ $(document).ready(function(){
   });
 });
 
-// var home = document.getElementById("home");
-// var dimensions = home.getClientRects()[0];
-// var pattern = Trianglify({
-//     width: dimensions.innerWidth,
-//     height: dimensions.innerHeight,
-//     cell_size: 40, 
-//     seed: 'ywn3w', 
-//     x_colors: 'random'
-// });
+var home = document.getElementById("home");
+var dimensions = home.getClientRects()[0];
+var pattern = Trianglify({
+    width: dimensions.width,
+    height: dimensions.height,
+    cell_size: 40, 
+    seed: 'ywn3w', 
+    x_colors: 'random'
+});
 
-// home.appendChild(pattern.canvas());
+home.appendChild(pattern.canvas());

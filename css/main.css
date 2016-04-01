@@ -26,9 +26,14 @@ p {
   font-size: 2em;
 }
 
+#portfolio p {
+  font-size: 1.5em;
+}
+
 #portrait {
   float: right;
-  width: 40%;
+  width: 60%;
+  overflow: hidden;
 }
 
 i,a.brand-logo, nav ul li a {
@@ -52,33 +57,36 @@ div.title {
 .evan {
   font-size: 9em;
   font-family: 'Alfa Slab One', serif;
+  /*margin-bottom: -5%;*/
 }
 
 .tagline {
-  position: relative;
-  top: -15%;
+  position: absolute;
+  top: 10%;
 }
 
 h4.webdev {
   font-family: 'Lora-Regular', serif;
   font-size: 4em;
-  margin-top: -50px;
+  position: absolute;
+  margin-top: 10%;
   text-align: center;
 }
 
 header#home {
   position: relative;
-  height: 100vh;
+  height: 98vh;
+  width: 100%;
 }
 
 i {
   font-size: 3em;
 }
 
-section {
+/*section {
   height: 95vh;
   margin-top: 4vh;
-}
+}*/
 
   /*background-size: auto 600px;
   background-attachment: fixed;
