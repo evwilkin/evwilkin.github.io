@@ -18,7 +18,7 @@ $(document).ready(function(){
   var headerHeight = $("header").height();
   $(window).scroll(function() {
     var wScroll = $(window).scrollTop();
-    if (wScroll >= headerHeight - 100) {
+    if (wScroll >= headerHeight - 50) {
       $("a.brand-logo").fadeIn(350).removeClass("hide");
     } else {
       $("a.brand-logo").fadeOut(350).addClass("hide");

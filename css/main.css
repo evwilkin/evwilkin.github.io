@@ -47,7 +47,7 @@ a.brand-logo {
 div.title {
   position: absolute;
   bottom: 8%;
-  width: 100%;
+  width: auto;
 }
 
 .hide {
@@ -75,7 +75,7 @@ h4.webdev {
 
 header#home {
   position: relative;
-  height: 98vh;
+  height: 99vh;
   width: 100%;
 }
 
@@ -83,10 +83,9 @@ i {
   font-size: 3em;
 }
 
-/*section {
-  height: 95vh;
-  margin-top: 4vh;
-}*/
+section {
+  padding-top: 4vh;
+}
 
   /*background-size: auto 600px;
   background-attachment: fixed;
