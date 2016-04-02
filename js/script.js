@@ -10,9 +10,15 @@ $(document).ready(function(){
   // });
 
   // Fade in home page
-  $("#developer").fadeIn(1000).delay(1000).removeClass("hide");
-  $("#designer").fadeIn(1500).delay(1200).removeClass("hide");
-  $("#doer").fadeIn(2000).delay(1500).removeClass("hide");
+  setTimeout(function() {
+    $("#developer").fadeIn(1200).removeClass("hide");
+  }, 800);
+  setTimeout(function() {
+    $("#designer").fadeIn(1200).removeClass("hide");
+  }, 1600);
+  setTimeout(function() {
+    $("#doer").fadeIn(1200).removeClass("hide");
+  }, 2400);
 
   // Add home button to navbar when home page not displayed
   var headerHeight = $("header").height();
