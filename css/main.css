@@ -15,6 +15,7 @@ nav {
   right: 0;
   bottom: 12%;
   width: 20%;
+  background-color: rgba(0,0,0,0,7);
 }
 
 div.navButtons {
@@ -27,7 +28,7 @@ div.navButtons {
 }
 
 body {
-  height: 2000px;
+  font-family: 'Lora-Regular', serif;
 }
 
 img {
