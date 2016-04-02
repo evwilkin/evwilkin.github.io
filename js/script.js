@@ -18,10 +18,12 @@ $(document).ready(function(){
   var headerHeight = $("header").height();
   $(window).scroll(function() {
     var wScroll = $(window).scrollTop();
-    if (wScroll >= headerHeight - 50) {
+    if (wScroll >= headerHeight - 200) {
       $("a.brand-logo").fadeIn(350).removeClass("hide");
+      $("nav").fadeIn(200).addClass("background");
     } else {
       $("a.brand-logo").fadeOut(350).addClass("hide");
+      $("nav").removeClass("background");
     }
   });
 });

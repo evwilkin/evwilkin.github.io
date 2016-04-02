@@ -1,12 +1,29 @@
 @font-face {
-    font-family:"Lora-Regular", serif;
+    font-family: "Lora-Regular", serif;
     src: url("Lora-Regular.ttf")
 }
 
 nav {
-  background-color: white;
+  background: none;
   position: fixed;
   z-index: 10;
+  top: 0;
+}
+
+#headerButtons {
+  position: absolute;
+  right: 0;
+  bottom: 12%;
+  width: 20%;
+}
+
+div.navButtons {
+  width: 100%;
+  font-family: "Lora-Regular", serif;
+}
+
+.background {
+  background-color: white;
 }
 
 body {
@@ -26,14 +43,16 @@ p {
   font-size: 2em;
 }
 
-#portfolio p {
+#projects {
+  margin-top: 100px;
+}
+
+#projects p {
   font-size: 1.5em;
 }
 
 #portrait {
-  float: right;
-  width: 60%;
-  overflow: hidden;
+  margin-top: 40px;
 }
 
 i,a.brand-logo, nav ul li a {
@@ -62,29 +81,33 @@ div.title {
 
 .tagline {
   position: absolute;
-  top: 10%;
-}
-
-h4.webdev {
-  font-family: 'Lora-Regular', serif;
-  font-size: 4em;
-  position: absolute;
-  margin-top: 10%;
-  text-align: center;
+  bottom: 2%;
 }
 
 header#home {
   position: relative;
   height: 99vh;
   width: 100%;
+  margin-top: -20%;
 }
 
 i {
-  font-size: 3em;
+  font-size: 5.2vw;
+}
+
+i.fa {
+  font-size: 30px;
+  padding: 5%;
 }
 
 section {
   padding-top: 4vh;
+}
+
+#webdev {
+  font-family: 'Lora-Regular', serif;
+  font-size: 4em;
+  display: none;
 }
 
   /*background-size: auto 600px;

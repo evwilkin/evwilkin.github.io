@@ -16,16 +16,16 @@
 <body>
   <!-- Navbar -->
   <nav class="z-depth-0">
-    <div class="nav nav-wrapper">
+    <div class="nav-wrapper">
       <a href="#home" class="hide brand-logo">Evan Wilkinson</a>
-      <a href="#" data-activates="nav nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="nav right hide-on-med-and-down">
-        <li data-menuanchor="portfolio"><a href="#portfolio">Portfolio</a></li>
-        <li data-menuanchor="about"><a href="#about">About</a></li>
-        <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li id="projectsNav" data-menuanchor="projects"><a href="#projects">Projects</a></li>
+        <li id="aboutNav" data-menuanchor="about"><a href="#about">About</a></li>
+        <li id="contactNav" data-menuanchor="contact"><a href="#contact">Contact</a></li>
       </ul>
       <ul class="side-nav" id="nav-mobile">
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -37,16 +37,27 @@
   <!-- Home page -->
   <header id="home" class="section">
     <div class="container">
-      <div class="tagline">
-        <h4 class="webdev hide"><span id="developer">Developer,</span><span id="designer" class="hide"> Designer,</span> <span id="doer" class="hide">Doer.</span></h4>
-      </div>
       <div class="title">
         <h1 class="evan">Evan <br />Wilkinson</h1>
       </div>
+      <div class="tagline">
+        <h4 id="webdev"><em><span id="developer" class="hide">Developer,</span><span id="designer" class="hide"> Designer,</span> <span id="doer" class="hide">Doer.</span></em></h4>
+      </div>
+    </div>
+    <div id="headerButtons">
+        <div class="navButtons">
+          <h2>Projects</h2>
+        </div>
+        <div class="navButtons">
+          <h2>About</h2>
+        </div>
+        <div class="navButtons">
+          <h2>Contact</h2>
+        </div>
     </div>
   </header>
  
-  <section id="portfolio" class="section">
+  <section id="projects" class="section">
     <div class="container">
       <h1>Projects</h1>
       <hr />
@@ -59,6 +70,7 @@
           <p>A personal finance app built on Ruby on Rails with a team of 4.</p>
         </div>
       </div>
+      <hr />
       <div class="row">
         <div class="col s12 m5">
           <h3 class="center-align">AdventureTo</h3>
@@ -68,6 +80,7 @@
           <img src="images/AdventureTo.png" />
         </a>
       </div>
+      <hr />
       <div class="row">
         <a class="col s12 m6" href="http://restaurant-week.evan-wilkinson.com">
           <img src="images/restaurant-week.png" />
@@ -77,6 +90,7 @@
           <p>A listing of Seattle restaurants participating in Restaurant Week 2016, including location, cuising, and meals offered.</p>
         </div>
       </div>
+      <hr />
       <div class="row">
         <div class="col s12 m5">
           <h3 class="center-align">Ludicrous Laws</h3>
@@ -86,6 +100,7 @@
           <img src="images/state-facts.png" />
         </a>
       </div>
+      <hr />
       <div class="row">
         <a class="col s12 m6" href="http://honeymoon.evan-wilkinson.com">
           <img src="images/honeymoon.png" />
@@ -95,23 +110,22 @@
           <p>A portfolio page designed and created in one day as a way to learn and utilize fullpage.js and html5 video.</p>
         </div>
       </div>
+      <hr />
     </div>
   </section>
 
   <section id="about" class="section">
     <div class="container">
+      <h1>About Evan</h1>
+      <hr />
       <div class="row">
-        <h1>About Evan</h1>
-        <hr />
-      </div>
-      <div class="row">
-        <div class="col sm12">
-          <p><strong>I love creating new things.</strong>  I started my path do Web Development after working at several different tech companies making the leap from startup-mode to large company.  When I saw the consistent problems customers encountered with each company's online presence, I thought <strong>I can do this better.</strong>  Since diving in head first, I've grown addicted to the constant learning required in this field and the new challenges you find yourself tackling every day.  My goal on any project is to make an experience that uniquely represents a brand to their customers and delivers a visually appealing, interactive online presence.  <strong><a href="#contact">Contact me</a></strong> to discuss how we can work together on your next great project.</p>
+        <div class="col sm12 m8">
+          <p>
+            <strong>I love creating new things.</strong>  I started my path to Web Development after working at several different tech companies making the leap from startup-mode to large companies.  When I saw the consistent problems customers encountered with each company's online presence, I thought <strong>I can do this better.</strong>  Since diving in head first, I've grown addicted to the constant learning required in this field and the new challenges you find yourself tackling every day.  My goal on any project is to make an experience that uniquely represents a brand to their customers and delivers a visually appealing, interactive online presence.  <strong><a href="#contact">Contact me</a></strong> to discuss how we can work together on your next great project.
+          </p>
+        </div>  
+        <div class="col sm12 m4">
           <img id="portrait" src="images/GA_Headshot.jpg">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col sm12">
           <i class="icon devicon-angularjs-plain-wordmark"></i>
           <i class="icon devicon-bootstrap-plain-wordmark"></i>
           <i class="icon devicon-css3-plain-wordmark"></i>
@@ -120,8 +134,6 @@
           <i class="icon devicon-heroku-original-wordmark"></i>
           <i class="icon devicon-html5-plain-wordmark"></i>
           <i class="icon devicon-javascript-plain"></i>
-        </div>
-        <div class="col sm12">
           <i class="icon devicon-jquery-plain-wordmark"></i>
           <i class="icon devicon-mongodb-plain-wordmark"></i>
           <i class="icon devicon-nodejs-plain-wordmark"></i>
@@ -140,16 +152,24 @@
       <h1>Contact me</h1>
       <hr />
       <p>Please feel free to connect with me, I look forward to what we can create together.</p>
-      <a href="mailto:evan.wilkinson@gmail.com">
-        <i class="fa fa-envelope">Send an Email</i>
-      </a>
-      <a href="https://www.linkedin.com/in/evan-wilkinson-57394466
-">
-        <i class="fa fa-linkedin-square">LinkedIn</i>
-      </a>
-      <a href="https://github.com/evwilkin">
-        <i class="fa fa-github">Github</i>
-      </a>
+      <div class="row">
+        <div class="col s12 m4">
+          <a href="mailto:evan.wilkinson@gmail.com">
+            <i class="fa fa-envelope">Send an Email</i>
+          </a>
+        </div>
+        <div class="col s12 m4">
+          <a href="https://www.linkedin.com/in/evan-wilkinson-57394466
+    ">
+            <i class="fa fa-linkedin-square">LinkedIn</i>
+          </a>
+        </div>
+        <div class="col s12 m4">
+          <a href="https://github.com/evwilkin">
+            <i class="fa fa-github">Github</i>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
