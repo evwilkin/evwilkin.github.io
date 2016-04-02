@@ -43,7 +43,7 @@ h1 {
 
 p {
   font-family: 'Lora-Regular', serif;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 #projects {
@@ -101,7 +101,7 @@ i {
 i.fa {
   font-size: 30px;
   padding: 5%;
-  color: black;
+  color: peachpuff;
 }
 
 section {
@@ -120,6 +120,28 @@ section {
 #contact {
   background-color: dimgray;
   color: gainsboro;
+}
+
+@media (max-width: 768px) {
+  header#home {
+    height: 40%;
+  }
+
+  .evan {
+    font-size: 4.5em;
+    font-family: 'Alfa Slab One', serif;
+    font-align: center;
+  }
+
+  .tagline {
+    position: absolute;
+    bottom: 2%;
+    font-size: 0.5em;
+  }
+
+  i {
+    font-size: 10vw;
+  }
 }
 
   /*background-size: auto 600px;
