@@ -4,7 +4,7 @@
 }
 
 nav {
-  background: none;
+  background-color: rgba(0,0,0,0.02);
   position: fixed;
   z-index: 10;
   top: 0;
@@ -15,7 +15,7 @@ nav {
   right: 0;
   bottom: 12%;
   width: 20%;
-  background-color: rgba(0,0,0,0,7);
+  background-color: rgba(0,0,0,0.7);
 }
 
 div.navButtons {
@@ -29,6 +29,8 @@ div.navButtons {
 
 body {
   font-family: 'Lora-Regular', serif;
+  height: 100vh;
+  width: 100%;
 }
 
 img {
@@ -87,9 +89,9 @@ div.title {
 
 header#home {
   position: relative;
-  height: 99vh;
+  height: 85%;
   width: 100%;
-  margin-top: -20%;
+  margin-top: -10%;
 }
 
 i {
@@ -99,6 +101,7 @@ i {
 i.fa {
   font-size: 30px;
   padding: 5%;
+  color: black;
 }
 
 section {
@@ -108,6 +111,15 @@ section {
 #webdev {
   font-family: 'Lora-Regular', serif;
   font-size: 4em;
+}
+
+#about {
+  background-color: whitesmoke;
+}
+
+#contact {
+  background-color: dimgray;
+  color: gainsboro;
 }
 
   /*background-size: auto 600px;
