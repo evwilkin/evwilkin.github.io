@@ -46,10 +46,6 @@ p {
   font-size: 1.5em;
 }
 
-#projects {
-  margin-top: 100px;
-}
-
 #projects p {
   font-size: 1.5em;
 }
@@ -66,10 +62,12 @@ a.brand-logo {
   font-family: 'Alfa Slab One', serif;
 }
 
+a:hover, i.fa:hover {
+  color: #66b9ae;
+}
+
 div.title {
-  position: absolute;
-  bottom: 8%;
-  width: auto;
+  margin-top: 20%;
 }
 
 .hide {
@@ -79,19 +77,19 @@ div.title {
 .evan {
   font-size: 9em;
   font-family: 'Alfa Slab One', serif;
-  /*margin-bottom: -5%;*/
 }
 
 .tagline {
-  position: absolute;
-  bottom: 2%;
+  margin-top: -4%;
 }
 
-header#home {
-  position: relative;
-  height: 85%;
+#home {
+  height: 75%;
   width: 100%;
-  margin-top: -10%;
+  background-image: url(../images/pattern.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4vh;
 }
 
 i {
@@ -104,8 +102,8 @@ i.fa {
   color: peachpuff;
 }
 
-section {
-  padding-top: 4vh;
+.section {
+  padding-top: 60px;
 }
 
 #webdev {
@@ -123,20 +121,16 @@ section {
 }
 
 @media (max-width: 768px) {
-  header#home {
-    height: 40%;
+  #home {
+    height: 50%;
   }
 
   .evan {
-    font-size: 4.5em;
-    font-family: 'Alfa Slab One', serif;
-    font-align: center;
+    font-size: 5em;
   }
 
   .tagline {
-    position: absolute;
-    bottom: 2%;
-    font-size: 0.5em;
+    font-size: 0.55em;
   }
 
   i {
@@ -144,8 +138,20 @@ section {
   }
 }
 
-  /*background-size: auto 600px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-image: url("../images/GA_Headshot.jpg")*/
+@media (max-width: 550px) {
+  #home {
+    height: 40%;
+  }
+
+  .evan {
+    font-size: 4.5em;
+  }
+
+  .tagline {
+    font-size: 0.5em;
+  }
+
+  i {
+    font-size: 10vw;
+  }
+}
