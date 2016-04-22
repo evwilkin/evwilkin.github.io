@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/jquery.fullPage.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -50,20 +49,19 @@
     <div class="container">
       <h1>Projects</h1>
       <hr />
+      <!-- Bankly -->
       <div class="row">
         <div class="materialboxed col s12 m6">
-          <img src="images/Bankly.png" />
-        </div>
-        <div class="col s12 m6">
-          <a href="http://bankly.evan-wilkinson.com">
-            <h3 class="center-align">Bankly</h3>
+          <a href="modal1">
+            <img src="images/Bankly.png" />
           </a>
-          <p>A personal finance app built on Ruby on Rails with a team of 4.  Users can login to build their profile, track and visualize their spending.</p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col sm 12">
-          <p>I served as project manager and built out the backend routes, delivering all data to the front end for styling.  I also built out the profile page, incorporating the Cloudinary API for image uploads, and learned and implemented Chart.js for the data visualization.</p>
+        <div id="modal1" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 class="center-align">Bankly</h4>
+            <p>A personal finance app built on Ruby on Rails with a team of 4.  Users can login to build their profile, track and visualize their spending.</p>
+            <p>I served as project manager and built out the backend routes, delivering all data to the front end for styling.  I also built out the profile page, incorporating the Cloudinary API for image uploads, and learned and implemented Chart.js for the data visualization.</p>
+          </div>
         </div>
       </div>
       <hr />
@@ -183,9 +181,7 @@
 
   <script src="https://code.jquery.com/jquery.js"></script>
   <script type="text/javascript" src="js/smooth-scroll.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/jquery.fullPage.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

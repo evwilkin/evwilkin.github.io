@@ -29,4 +29,10 @@ $(document).ready(function(){
       $("nav").removeClass("background");
     }
   });
+
+  $("#portrait").hover(function() {
+    $(this).attr("src", "images/school.jpg");
+  }, function() {
+    $(this).attr("src", "images/GA_Headshot.jpg");
+  });
 });
