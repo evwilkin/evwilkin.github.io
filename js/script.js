@@ -6,6 +6,9 @@ $(document).ready(function(){
   // Smooth Scroll
   $('a').smoothScroll();
 
+  // Materialize Modals
+  $('.modal-trigger').leanModal();
+
   // Fade in home page
   setTimeout(function() {
     $("#developer").fadeIn(1200).removeClass("hide");

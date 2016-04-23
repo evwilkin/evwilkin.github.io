@@ -41,6 +41,14 @@ h1 {
   font-family: 'Alfa Slab One', serif;
 }
 
+h4.center-align {
+  font-family: 'Alfa Slab One', serif;
+}
+
+h5 {
+  text-decoration: underline;
+}
+
 p {
   font-family: 'Lora-Regular', serif;
   font-size: 1.5em;
@@ -100,6 +108,16 @@ i.fa {
   font-size: 30px;
   padding: 5%;
   color: peachpuff;
+}
+
+div.modal-footer i.fa {
+  font-size: 1.5em;
+  padding: 0;
+  color: #039BE5;
+}
+
+div.modal-footer i.fa:hover {
+  color: #66b9ae;
 }
 
 .section {

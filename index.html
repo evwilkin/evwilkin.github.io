@@ -49,71 +49,165 @@
     <div class="container">
       <h1>Projects</h1>
       <hr />
-      <!-- Bankly -->
       <div class="row">
-        <div class="materialboxed col s12 m6">
-          <a href="modal1">
-            <img src="images/Bankly.png" />
+        <!-- Bankly -->
+        <div class="col s12 m6">
+          <img class="materialboxed" src="images/Bankly.png" />
+          <a class="modal-trigger center-align" href="#modal1">
+            <h3>Bankly</h3>
           </a>
+          <p class="center-align">Visualize your Spending.</p>
         </div>
         <div id="modal1" class="modal modal-fixed-footer">
-          <div class="modal-content">
+          <div class="row modal-content">
             <h4 class="center-align">Bankly</h4>
+            <div class="col s6">
+              <h5>Technologies:</h5>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>SASS</li>
+                <li>Javascript</li>
+                <li>Ruby on Rails</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+                <li>Postgres</li>
+                <li>Sequelize</li>
+                <li>Heroku</li>
+                <li>Cloudinary API</li>
+                <li>Chart.js</li>
+                <li>fullPage.js</li>
+                <li>Font Awesome</li>
+              </ul>
+            </div>
+            <div class="col s6">
+              <p>I served as project manager and built out the backend routes, delivering all data to the front end for styling.  I also built out the profile page, incorporating the Cloudinary API for image uploads, and learned and implemented Chart.js for the data visualization.  Website is deployed to Heroku.</p>
+            </div>
             <p>A personal finance app built on Ruby on Rails with a team of 4.  Users can login to build their profile, track and visualize their spending.</p>
-            <p>I served as project manager and built out the backend routes, delivering all data to the front end for styling.  I also built out the profile page, incorporating the Cloudinary API for image uploads, and learned and implemented Chart.js for the data visualization.</p>
+          </div>
+          <div class="modal-footer">
+            <a target="_blank" href="https://mybankly.herokuapp.com" class="btn-flat">
+              <i class="fa fa-external-link">  Visit Bankly</i>
+            </a>
+            <a target="_blank" href="https://github.com/evwilkin/bankly" class="btn-flat">
+              <i class="fa fa-github"> GitHub</i>
+            </a>
+            <a href="#projects" class="btn-flat modal-action modal-close">
+              <i class="fa fa-close"></i>
+            </a>
+          </div>
+        </div>
+        <!-- AdventureTo -->
+        <div class="col s12 m6">
+          <img class="materialboxed" src="images/AdventureTo.png" />
+          <a class="modal-trigger center-align" href="#modal2">
+            <h3>AdventureTo</h3>
+          </a>
+          <p class="center-align">Research, plan, and document your travels.</p>
+        </div>
+        <div id="modal2" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 class="center-align">AdventureTo</h4>
+            <p>A travel app allowing users to create an account and store wishlists of places to go and things to do, journals to document the experiences they've had, and an inspiration section tied to the Flickr API to search through photographs pulled from Flickr.</p>
+            <p>I built out all aspects of the app, including both front end styling and backend design and routing.  For this application I incorporated the Flickr API, Postgres and Sequelize for data storage, Materialize and one of my own photographs for the front end design.  Website is deployed to Heroku.</p>
+          </div>
+          <div class="modal-footer">
+            <a target="_blank" href="https://adventureto.herokuapp.com" class="btn-flat">
+              <i class="fa fa-external-link">  Visit AdventureTo</i>
+            </a>
+            <a target="_blank" href="https://github.com/evwilkin/travel_app" class="btn-flat">
+              <i class="fa fa-github"> GitHub</i>
+            </a>
+            <a href="#projects" class="btn-flat modal-action modal-close">
+              <i class="fa fa-close"></i>
+            </a>
           </div>
         </div>
       </div>
-      <hr />
+
       <div class="row">
-        <div class="col s12 m5">
-          <a href="http://adventureto.evan-wilkinson.com">
-            <h3 class="center-align">AdventureTo</h3>
+        <!-- Restaurant Week -->
+        <div class="col s12 m6">
+          <img class="materialboxed" src="images/restaurant-week.png" />
+          <a class="modal-trigger center-align" href="#modal3">
+            <h3>Restaurant Week</h3>
           </a>
-          <p>Research, plan, and document your travels.</p>
+          <p class="center-align">Seattle Restaurant Week, Spring 2016</p>
         </div>
-        <div class="materialboxed col s12 m6">
-          <img src="images/AdventureTo.png" />
+        <div id="modal3" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 class="center-align">Restaurant Week</h4>
+            <p>A web app built to provide listings of all restaurants participating in Seattle Restaurant Week 2016, including information about and links to each restaurant data scraped from the official Restaurant Week website. Coming Soon: search functionality.</p>
+            <p>This app was built in a day with a team of four for a MEAN-stack hackathon, and indeed uses Mongo, Express, Angular and Node.  I set up the entire backend, feeding all the data to the site as well as building and styling the restaurants listings page.</p>
+          </div>
+          <div class="modal-footer">
+            <a target="_blank" href="https://restaurant-week2016.herokuapp.com" class="btn-flat">
+              <i class="fa fa-external-link">  Visit Restaurant Week</i>
+            </a>
+            <a target="_blank" href="https://github.com/scottheron/festival_hackathon" class="btn-flat">
+              <i class="fa fa-github"> GitHub</i>
+            </a>
+            <a href="#projects" class="btn-flat modal-action modal-close">
+              <i class="fa fa-close"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Honeymoon -->
+        <div class="col s12 m6">
+          <img class="materialboxed" src="images/honeymoon.png" />
+          <a class="modal-trigger center-align" href="#modal4">
+            <h3>European Honeymoon Photo Gallery</h3>
+          </a>
+          <p class="center-align">Italy, Greece, and Iceland - Fall 2016.</p>
+        </div>
+        <div id="modal4" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 class="center-align">European Honeymoon Photo Gallery</h4>
+            <p>Erin and I were married in August 2016, and pursuing our love of travel we planned an extended Honeymoon abroad in Europe where we had been separately but never together.  This site was built as a way to share our memories with friends and family through a full-page photo album.</p>
+            <p>In addition to showcasing our travel memories, this project also served as a chance to learn and use fullPage.js, Foundation and HTML video. It was completed for a one-day front end hackathon project, though I look forward to using it as a canvas to continue to experiment on with new technologies.</p>
+          </div>
+          <div class="modal-footer">
+            <a target="_blank" href="http://honeymoon.evan-wilkinson.com/" class="btn-flat">
+              <i class="fa fa-external-link">  Visit Honeymoon Gallery</i>
+            </a>
+            <a target="_blank" href="https://github.com/evwilkin/front-end-hackathon" class="btn-flat">
+              <i class="fa fa-github"> GitHub</i>
+            </a>
+            <a href="#projects" class="btn-flat modal-action modal-close">
+              <i class="fa fa-close"></i>
+            </a>
+          </div>
         </div>
       </div>
-      <hr />
+
       <div class="row">
-        <div class="materialboxed col s12 m6">
-          <img src="images/restaurant-week.png" />
-        </div>
-        <div class="col s12 m5 offset-m1">
-          <a href="http://restaurant-week.evan-wilkinson.com">
-            <h3 class="center-align">Restaurant Week 2016</h3>
+        <div class="col s12 m6">
+          <img class="materialboxed" src="images/state-facts.png" />
+          <a class="modal-trigger center-align" href="#modal5">
+            <h3>Ludicrous Laws</h3>
           </a>
-          <p>A listing of Seattle restaurants participating in Restaurant Week 2016, including location, cuising, and meals offered.</p>
+          <p class="center-align">Head-to-head tour of America's craziest laws.</p>
+        </div>
+        <div id="modal5" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 class="center-align">Ludicrous Laws</h4>
+            <p>I was inspired to create this game after seeing an article listing some of the weirdest laws in the country that a friend shared with me.  I thought it would make a good way to get a kick out of the humor in the laws but also make an entertaining and competitive interactive experience.</p>
+            <p>This is one of the first games I built, utilizing purely front end technologies including HTML, CSS, Javascript, and jQuery.  I coded all the styling for the street signs in pure CSS, and used jQuery for the car animations.</p>
+          </div>
+          <div class="modal-footer">
+            <a target="_blank" href="http://states.evan-wilkinson.com/" class="btn-flat">
+              <i class="fa fa-external-link">  Visit Honeymoon Gallery</i>
+            </a>
+            <a target="_blank" href="https://github.com/evwilkin/state_facts_game" class="btn-flat">
+              <i class="fa fa-github"> GitHub</i>
+            </a>
+            <a href="#projects" class="btn-flat modal-action modal-close">
+              <i class="fa fa-close"></i>
+            </a>
+          </div>
         </div>
       </div>
-      <hr />
-      <div class="row">
-        <div class="col s12 m5">
-          <a href="http://states.evan-wilkinson.com">
-            <h3 class="center-align">Ludicrous Laws</h3>
-          </a>
-          <p>A 2-player game that takes you through some of the strangest laws in the country - first to 5 wins!</p>
-        </div>
-        <div class="materialboxed col s12 m6">
-          <img src="images/state-facts.png" />
-        </div>
-      </div>
-      <hr />
-      <div class="row">
-        <div class="materialboxed col s12 m6">
-          <img src="images/honeymoon.png" />
-        </div>
-        <div class="col s12 m5 offset-m1">
-          <a href="http://honeymoon.evan-wilkinson.com">
-            <h3 class="center-align">European Honeymoon</h3>
-          </a>
-          <p>A portfolio page designed and created in one day as a way to learn and utilize fullpage.js and html5 video.</p>
-        </div>
-      </div>
-      <hr />
-    </div>
   </section>
 
   <section id="about" class="section">
