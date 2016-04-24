@@ -120,6 +120,14 @@ div.modal-footer i.fa:hover {
   color: #66b9ae;
 }
 
+.modal-footer .btn-flat {
+  text-transform: none;
+}
+
+.modal-footer .btn-flat:hover {
+  background-color: rgba(0,0,0,0.07);
+}
+
 .section {
   padding-top: 60px;
 }
