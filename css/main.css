@@ -115,6 +115,16 @@ i.fa-wordpress, i.fa-camera-retro, i.fa-flickr {
   font-size: 2.5em;
 }
 
+i.icon, #skills img {
+  width: 12%;
+  margin: 0 5px;
+  font-size: 3.5em;
+}
+
+#skills img {
+  margin-bottom: -2%;
+}
+
 div.modal-footer i.fa {
   font-size: 1.5em;
   padding: 0;
@@ -151,6 +161,10 @@ div.modal-footer i.fa:hover {
   color: gainsboro;
 }
 
+#contactMe {
+  font-size: 1.5em;
+}
+
 @media (max-width: 768px) {
   #home {
     height: 50%;
@@ -166,6 +180,10 @@ div.modal-footer i.fa:hover {
 
   i {
     font-size: 8vw;
+  }
+
+  #skills img {
+    margin-bottom: -9px;
   }
 }
 
@@ -184,5 +202,16 @@ div.modal-footer i.fa:hover {
 
   i {
     font-size: 10vw;
+  }
+
+  i.icon, #skills img {
+    width: 20%;
+    margin: 0 5px;
+    font-size: 4.5em;
+    line-height: 150px;
+  }
+
+  #skills img {
+    margin-bottom: -10px;
   }
 }
