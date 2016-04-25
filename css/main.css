@@ -107,11 +107,11 @@ i {
 i.fa {
   font-size: 2em;
   padding: 5%;
-  color: #039BE5;
+  color: #06abfc;
 }
 
 i.fa-wordpress, i.fa-camera-retro, i.fa-flickr {
-  color: #039BE5;
+  color: #06abfc;
   font-size: 2.5em;
 }
 
@@ -128,7 +128,7 @@ i.icon, #skills img {
 div.modal-footer i.fa {
   font-size: 1.5em;
   padding: 0;
-  color: #039BE5;
+  color: #06abfc;
 }
 
 div.modal-footer i.fa:hover {
