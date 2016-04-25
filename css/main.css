@@ -105,9 +105,14 @@ i {
 }
 
 i.fa {
-  font-size: 30px;
+  font-size: 2em;
   padding: 5%;
   color: peachpuff;
+}
+
+i.fa-wordpress, i.fa-camera-retro, i.fa-flickr {
+  color: #039BE5;
+  font-size: 2.5em;
 }
 
 div.modal-footer i.fa {
@@ -160,11 +165,11 @@ div.modal-footer i.fa:hover {
   }
 
   i {
-    font-size: 10vw;
+    font-size: 8vw;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   #home {
     height: 40%;
   }
