@@ -10,6 +10,10 @@ nav {
   top: 0;
 }
 
+nav ul a {
+  font-size: 1.2rem;
+}
+
 #headerButtons {
   position: absolute;
   right: 0;
@@ -37,11 +41,7 @@ img {
   width: 100%;
 }
 
-h1 {
-  font-family: 'Alfa Slab One', serif;
-}
-
-h4.center-align {
+h1, h3, h4 {
   font-family: 'Alfa Slab One', serif;
 }
 
@@ -66,8 +66,14 @@ i,a.brand-logo, nav ul li a {
   color: black;
 }
 
+h4 a {
+  color: #06abfc;
+  padding-left: 2%;
+}
+
 a.brand-logo {
   font-family: 'Alfa Slab One', serif;
+  padding-left: 15px;
 }
 
 a:hover, i.fa:hover {
@@ -135,11 +141,11 @@ div.modal-footer i.fa:hover {
   color: #66b9ae;
 }
 
-.modal-footer .btn-flat {
+.btn-flat {
   text-transform: none;
 }
 
-.modal-footer .btn-flat:hover {
+.btn-flat:hover {
   background-color: rgba(0,0,0,0.07);
 }
 
@@ -156,6 +162,14 @@ div.modal-footer i.fa:hover {
   background-color: whitesmoke;
 }
 
+#abouthr {
+  margin: 3% 0;
+}
+
+#bottomIcons {
+  margin-top: 1%;
+}
+
 #contact {
   background-color: dimgray;
   color: gainsboro;
@@ -163,6 +177,12 @@ div.modal-footer i.fa:hover {
 
 #contactMe {
   font-size: 1.5em;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    padding: 0;
+  }
 }
 
 @media (max-width: 768px) {
