@@ -78,6 +78,7 @@ a.brand-logo {
 
 a:hover, i.fa:hover {
   color: #66b9ae;
+  transition: color .25s ease-in-out;
 }
 
 div.title {
@@ -150,7 +151,7 @@ div.modal-footer i.fa:hover {
 }
 
 .section {
-  padding-top: 60px;
+  padding: 60px 0;
 }
 
 #webdev {
