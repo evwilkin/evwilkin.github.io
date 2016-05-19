@@ -22,11 +22,12 @@ $(document).ready(function(){
 
   // Add home button to navbar when home page not displayed
   var headerHeight = $("header").height();
+  var navHeight = $("nav").height();
   $(window).scroll(function() {
     var wScroll = $(window).scrollTop();
-    if (wScroll >= headerHeight) {
+    if (wScroll >= headerHeight + navHeight) {
       $("a.brand-logo").fadeIn(500).removeClass("hide");
-      $("nav").fadeIn(200).addClass("background");
+      $("nav").addClass("background");
     } else {
       $("a.brand-logo").fadeOut(350);
       $("nav").removeClass("background");
