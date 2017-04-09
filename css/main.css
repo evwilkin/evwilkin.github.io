@@ -178,6 +178,11 @@ div.modal-footer i.fa:hover {
   font-size: 1.5em;
 }
 
+// Mobile Nav fix
+body[style*="overflow: hidden;"] #nav-mobile {
+  left: 0;
+}
+
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
     padding: 0;
