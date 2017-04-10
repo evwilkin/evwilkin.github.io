@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-  // Fix mobile viewport
-  $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1">');
-
   // Collapse navbar
   $(".button-collapse").sideNav();
 

@@ -51,10 +51,6 @@ p {
   font-size: 1.5em;
 }
 
-#projects p {
-  font-size: 1.5em;
-}
-
 #portrait {
   margin-top: 40px;
 }
@@ -290,6 +286,10 @@ nav > .nav-wrapper > .side-nav {
   .modal-content li {
     list-style-type: none;
   }
+
+  .modal-content p {
+    font-size: 1em;
+  }
 }
 
 @media (max-width: 890px) {
@@ -298,6 +298,12 @@ nav > .nav-wrapper > .side-nav {
   }
 
   a[role="button"] {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .mobile-hide {
     display: none;
   }
 }
