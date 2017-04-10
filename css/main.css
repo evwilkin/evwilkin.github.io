@@ -34,6 +34,10 @@ img {
   width: 100%;
 }
 
+#portfolio img {
+  border: 1px solid lightgrey;
+}
+
 h1, h3, h4 {
   font-family: 'Alfa Slab One', serif;
 }
@@ -72,6 +76,7 @@ a.brand-logo {
 a:hover, i.fa:hover {
   color: #66b9ae;
   transition: color .2s ease;
+  cursor: pointer;
 }
 
 .hide {
@@ -140,6 +145,10 @@ div.modal-footer i.fa:hover {
   color: #66b9ae;
 }
 
+.modal-content li {
+  list-style-type: disc;
+}
+
 .btn-flat {
   text-transform: none;
 }
@@ -178,9 +187,56 @@ div.modal-footer i.fa:hover {
   font-size: 1.5em;
 }
 
+iframe nav {
+  display: none;
+}
+
+iframe body > div {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+iframe body > div > .document-container {
+  margin: 0 auto;
+}
+
+// Tabs styling
+#portfolio .container .tabs {
+  border-top: 2px solid dimgray;
+}
+
+.tabs .tab a {
+  color: white;
+  background-color: dimgray;
+  font-size: 1.3em;
+}
+
+.tabs .tab a.active {
+  background-color: #039be5;
+}
+
+.tabs .tab a:hover {
+  background-color: #039be5;
+  color: white;
+  transition: background-color .2s ease;
+}
+
+#portfolio > .container > .row .row:first-child > .col {
+  margin-top: 25px;
+}
+
+.tabs .indicator {
+  background-color: dimgray;
+  height: 4px;
+}
+
 // Mobile Nav fix
-body[style*="overflow: hidden;"] #nav-mobile {
-  left: 0;
+nav > .nav-wrapper > .side-nav {
+  left: 0 !important;
+}
+
+#sidenav-overlay {
+  left: 240px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -229,5 +285,15 @@ body[style*="overflow: hidden;"] #nav-mobile {
 
   #skills img {
     margin-bottom: -10px;
+  }
+}
+
+@media (max-width: 890px) {
+  object {
+    display: none;
+  }
+
+  a[role="button"] {
+    display: none;
   }
 }

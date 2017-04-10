@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="SHORTCUT ICON" HREF="images/favicon.ico">
 </head>
 <body>
   <!-- Navbar -->
@@ -19,17 +18,19 @@
       <a href="#home" class="hide brand-logo">Evan Wilkinson</a>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li id="projectsNav" data-menuanchor="projects"><a href="#projects">Projects</a></li>
+        <li id="portfolioNav" data-menuanchor="portfolio"><a href="#portfolio">Portfolio</a></li>
         <li id="aboutNav" data-menuanchor="about"><a href="#about">About</a></li>
         <li id="contactNav" data-menuanchor="contact"><a href="#contact">Contact</a></li>
       </ul>
-      <ul class="side-nav" id="nav-mobile">
-        <li><a href="#projects">Projects</a></li>
+
+    </div>
+  </nav>
+  <ul class="side-nav" id="nav-mobile">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </div>
-  </nav>
 
   <!-- Body -->
 
@@ -57,486 +58,546 @@
     </div>
   </header>
  
-  <section id="projects" class="section">
+  <section id="portfolio" class="section">
     <div class="container">
-      <h1>Projects</h1>
-      <hr />
-
-      <h2>Work</h2>
-      <hr />
+      <h1>Portfolio</h1>
 
       <div class="row">
-        
-        <!-- Servier CDMO -->
-        <div class="col s12 m6">
-          <img class="materialboxed" src="images/Servier_CDMO.jpg" alt="Servier CDMO Website" />
-          <a class="modal-trigger center-align" href="#modal1">
-            <h3>Servier CDMO</h3>
-          </a>
-          <p class="center-align">Pharmaceutical Website</p>
-        </div>
-        <div id="modal1" class="modal modal-fixed-footer">
-          <div class="row modal-content">
-            <h4 class="center-align">Servier CDMO Website</h4>
-            <p>A full company website built on the HubSpot CMS platform. Design is based loosely off of existing web presence but upgraded to include more interaction, mobile responsiveness, and to take advantage of built-in HubSpot marketing tools and analytics. Co-built with one other developer using Adobe comps provided by our internal design team as well as direct feedback from the client.</p>
-            <hr />
-            <div class="col s6">
-              <h5>Technologies:</h5>
-              <ul class="col s6">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>jQuery</li>
-              </ul>
-              <ul class="col s6">
-                <li>HubSpot &amp; HubL code/templates</li>
-                <li>Slick slider jQuery plugin</li>
-                <li>Google Custom Search Engine</li>
-                <li>Responsive Design</li>
-              </ul>
-            </div>
-            <div class="col s6">
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Built custom templates in HubSpot for quickly prototyping web pages with the ability for easy customization.</li>
-                <li>Designed and implemented custom modules to get around limitations built into HubSpot blog system based on client's needs to display and feature multiple separate blogs.</li>
-                <li>Utilized jQuery &amp; CSS to dynamically crop and center images allowing for user uploads of any size, and used Slick jQuery plugin for rotating images and news articles for slide shows.</li>
-                <li>Built custom JavaScript solution for dynamically building rows of blog posts to make future updates seamless for client.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#projects" class="btn-flat modal-action modal-close col s6 center-align">
-              <i class="fa fa-close"></i>
-            </a>
-            <a target="_blank" href="http://www.servier-cdmo.com" class="btn-flat col s6 center-align">
-              <i class="fa fa-external-link">  Visit Servier CDMO</i>
-            </a>
-          </div>
-        </div>
-        
-        <!-- Nice Symposium -->
-        <div class="col s12 m6">
-          <img class="materialboxed" src="images/NiceSymposium.jpg" alt="Nice Symposium website" />
-          <a class="modal-trigger center-align" href="#modal2">
-            <h3>Nice Symposium</h3>
-          </a>
-          <p class="center-align">Event information, registration, and resource downloads page for a series of conferences</p>
-        </div>
-        <div id="modal2" class="modal modal-fixed-footer">
-          <div class="row modal-content">
-            <h4 class="center-align">Nice Symposium</h4>
-            <p>An internal project for That's Nice, the Nice Symposium website serves as an information hub for a new series of conferences recently kicked off in Durham. This site draws design inspiration from the family of That's Nice websites, and was built from design comps from our internal Design team.  This project featured a tight deadline, with only about two weeks from concept to launch with new resources and deliverables arriving each day.</p>
-            <hr />
-            <div class="col s6">
-              <h5>Technologies:</h5>
-              <ul class="col s6">
-                <li>HubSpot CMS &amp; HubL code</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-              </ul>
-              <ul class="col s6">
-                <li>Slick jQuery plugin</li>
-                <li>Responsive design</li>
-                <li>Google Custom Search Engine</li>
-                <li>Custom form solution for lead generation</li>
-              </ul>
-            </div>
-            <div class="col s6">
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Developed page templates and built out all pages with guidance from design team comps.</li>
-                <li>Created custom jQuery solution to integrate with default HubSpot forms to implement custom fields and enrich lead generation.</li>
-                <li>Completed full site build-out and deployment within 2-week deadline, adapting to changing requirements and new deliverables up through the last hour.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#projects" class="btn-flat modal-action modal-close col s6 center-align">
-              <i class="fa fa-close"></i>
-            </a>
-            <a target="_blank" href="https://www.nicesymposium.com/" class="btn-flat col s6 center-align">
-              <i class="fa fa-external-link">  Visit Nice Symposium</i>
-            </a>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- ####### -->
-
-      <div class="row">
-
-        <!-- That's Nice -->
-        <div class="col s12 m6">
-          <img class="materialboxed" src="images/fedfacts.png" />
-          <a class="modal-trigger center-align" href="#modal1">
-            <h3>That's Nice website</h3>
-          </a>
-          <p class="center-align">Ad Agency website</p>
-        </div>
-        <div id="modal1" class="modal modal-fixed-footer">
-          <div class="row modal-content">
-            <h4 class="center-align">That's Nice</h4>
-            <p>This project was an internal rebuild of our company's website from a fairly plain and text-heavy static site to a more dynamic and interactive design. As our own landing page, we wanted to make it easy to navigate but contain lots of content to showcase case studies and the different abilities of our agency. This project featured lots of back and forth as all major leadership in the company had input and feedback to contribute.</p>
-            <hr />
-            <div class="col s6">
-              <h5>Technologies:</h5>
-              <ul class="col s6">
-                <li>HubSpot CMS</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>jQuery</li>
-              </ul>
-              <ul class="col s6">
-                <li>bxSlider jQuery plugin</li>
-                <li>Google Custom Search Engine</li>
-                <li>CSS Animations</li>
-                <li>Responsive design</li>
-              </ul>
-            </div>
-            <div class="col s6">
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Implemented jQuery plugin for client logo slideshow on homepage</li>
-                <li>Collaborated with Design Director to gather feature feedback and manage expectations to keep project on schedule</li>
-                <li>Built custom solution for displaying contact rows of three after one small change caused entire page to be recoded. New system adapts dynamically if new contacts are added and removed, adjusting each row as needed.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#projects" class="btn-flat modal-action modal-close col s6 center-align">
-              <i class="fa fa-close"></i>
-            </a>
-            <a target="_blank" href="http://www.thatsnice.com" class="btn-flat col s6 center-align">
-              <i class="fa fa-external-link">  Visit That's Nice</i>
-            </a>
-          </div>
-        </div>
-        
-        <!-- EPA Federal Facilities Dashboard -->
-        <div class="col s12 m6">
-          <img class="materialboxed" src="images/fedfacts.png" />
-          <a class="modal-trigger center-align" href="#modal1">
-            <h3>EPA Federal Facilities Dashboard</h3>
-          </a>
-          <p class="center-align">Data Visualization Dashboard</p>
-        </div>
-        <div id="modal1" class="modal modal-fixed-footer">
-          <div class="row modal-content">
-            <h4 class="center-align">EPA Federal Facilities Dashboard</h4>
-            <p>A public dashboard designed to clearly distribute information collected by the Environmental Protection Agency. Data is organized by category, sortable, and linked to corresponding data tables.  Application built and designed in Oracle Application Express (APEX), charts created using AnyChart plugin. Inherited project from previous employee and served as sole developer and main point of contact for client.</p>
-            <hr />
-            <div class="col s6">
-              <h5>Technologies:</h5>
-              <ul class="col s6">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>SQL</li>
-              </ul>
-              <ul class="col s6">
-                <li>Oracle Application Express</li>
-                <li>Oracle SQL Developer</li>
-                <li>PL/SQL</li>
-                <li>AnyChart</li>
-              </ul>
-            </div>
-            <div class="col s6">
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Frontend Developer - built UI and data visualizations in Oracle Apex</li>
-                <li>Backend Developer - built queries needed for each chart, including filtering and drill-down options</li>
-                <li>Client contact - collaborated with clients for direct feedback and continuous iteration</li>
-              </ul>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#projects" class="btn-flat modal-action modal-close col s6 center-align">
-              <i class="fa fa-close"></i>
-            </a>
-            <a target="_blank" href="https://ofmpub.epa.gov/apex/ffcc/f?p=111:1::::::" class="btn-flat col s6 center-align">
-              <i class="fa fa-external-link">  Visit Dashboard</i>
-            </a>
-          </div>
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s4">
+              <a href="#work">Work</a>
+            </li>
+            <li class="tab col s4">
+              <a href="#personal">Personal</a>
+            </li>
+            <li class="tab col s4">
+              <a href="#games">Games</a>
+            </li>
+          </ul>
         </div>
 
-      </div>  
-      <div class="row">
-        <h2>Personal &amp; Projects</h2>
-        <hr />
-        
-        <!-- DevDash -->
-        <div class="col s12 m6">
-          <img class="materialboxed" src="images/devdash.png" />
-          <a class="modal-trigger center-align" href="#modal2">
-            <h3>DevDash</h3>
-          </a>
-          <p class="center-align">A dashboard for developers.</p>
-        </div>
-        <div id="modal2" class="modal modal-fixed-footer">
-          <div class="row modal-content">
-            <h4 class="center-align">DevDash</h4>
-            <p>A full MEAN-stack app dashboard application created to help boost productivity and track projects and deliverables for developers. Solo project that I created to help keep track of notes, to-do, and project details in one place. Designed with simple aesthetic and dark UI to keep focus on productivity.</p>
-            <hr />
-            <div class="col s6">
-              <h5>Technologies:</h5>
-              <ul class="col s6">
-                <li>MongoDB</li>
-                <li>Express</li>
-                <li>Angular</li>
-                <li>Node</li>
-                <li>Mongoose</li>
-              </ul>
-              <ul class="col s6">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Bootstrap</li>
-                <li>Heroku</li>
-              </ul>
+        <div id="work">
+          <div class="row">
+            
+            <!-- Servier CDMO -->
+            <div class="col s12 m6">
+              <img class="materialboxed" src="images/Servier_CDMO.jpg" alt="Servier CDMO Website" />
+              <a class="modal-trigger center-align" href="#modal1">
+                <h3>Servier CDMO</h3>
+              </a>
+              <p class="center-align">Pharmaceutical Website</p>
             </div>
-            <div class="col s6">
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Frontend/Angular developer - Designed and built single page app user interface with minimalistic approach and approachable layout</li>
-                <li>Backend developer - Built out MongoDB database and handled all routing and authentication</li>
-                <li>User - utilize application personally and continue to improve and iterate</li>
-                <li>Deployment - Deployed app to Heroku</li>
-              </ul>
+            <div id="modal1" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">Servier CDMO Website</h4>
+                <p>A full company website built on the HubSpot CMS platform. Design is based loosely off of existing web presence but upgraded to include more interaction, mobile responsiveness, and to take advantage of built-in HubSpot marketing tools and analytics. Co-built with one other developer using Adobe comps provided by our internal design team as well as direct feedback from the client.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul class="col s6">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                  </ul>
+                  <ul class="col s6">
+                    <li>HubSpot &amp; HubL code/templates</li>
+                    <li>Slick slider jQuery plugin</li>
+                    <li>Google Custom Search Engine</li>
+                    <li>Responsive Design</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Built custom templates in HubSpot for quickly prototyping web pages with the ability for easy customization.</li>
+                    <li>Designed and implemented custom modules to get around limitations built into HubSpot blog system based on client's needs to display and feature multiple separate blogs.</li>
+                    <li>Utilized jQuery &amp; CSS to dynamically crop and center images allowing for user uploads of any size, and used Slick jQuery plugin for rotating images and news articles for slide shows.</li>
+                    <li>Built custom JavaScript solution for dynamically building rows of blog posts to make future updates seamless for client.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s6 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a target="_blank" href="http://www.servier-cdmo.com" class="btn-flat col s6 center-align">
+                  <i class="fa fa-external-link">  Visit Servier CDMO</i>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#projects" class="btn-flat modal-action modal-close col s4 center-align">
-              <i class="fa fa-close"></i>
-            </a>
-            <a target="_blank" href="https://github.com/evwilkin/developer_dashboard" class="btn-flat col s4 center-align">
-              <i class="fa fa-github"> GitHub</i>
-            </a>
-            <a target="_blank" href="https://devdash.herokuapp.com/" class="btn-flat col s4 center-align">
-              <i class="fa fa-external-link">  Visit DevDash</i>
-            </a>
-          </div>
-        </div>
-        
-        <!-- Bankly -->
-        <div class="col s12 m6">
-          <img class="materialboxed" src="images/Bankly.png" />
-          <a class="modal-trigger center-align" href="#modal3">
-            <h3>Bankly</h3>
-          </a>
-          <p class="center-align">Visualize your Spending.</p>
-        </div>
-        <div id="modal3" class="modal modal-fixed-footer">
-          <div class="row modal-content">
-            <h4 class="center-align">Bankly</h4>
-            <p>A personal finance app built on Ruby on Rails over the course of a week with a team of 4.  Users can create a profile in order to log expenses and enter their monthly budget.  The app then uses data visualization to give monthly breakdowns of expenses organized by category, as well as gives a full ledger of purchases.</p>
-            <hr />
-            <div class="col s6">
-              <h5>Technologies:</h5>
-              <ul class="col s6">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>SASS</li>
-                <li>Javascript</li>
-                <li>Ruby on Rails</li>
-                <li>Bootstrap</li>
-                <li>jQuery</li>
-              </ul>
-              <ul class="col s6">
-                <li>Postgres</li>
-                <li>Sequelize</li>
-                <li>Heroku</li>
-                <li>Cloudinary API</li>
-                <li>Chart.js</li>
-                <li>fullPage.js</li>
-                <li>Font Awesome</li>
-              </ul>
+            
+            <!-- Nice Symposium -->
+            <div class="col s12 m6">
+              <img class="materialboxed" src="images/NiceSymposium.jpg" alt="Nice Symposium website" />
+              <a class="modal-trigger center-align" href="#modal2">
+                <h3>Nice Symposium</h3>
+              </a>
+              <p class="center-align">Event information, registration, and resource downloads page for a series of conferences</p>
             </div>
-            <div class="col s6">
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Project Manager/GitHub Master</li>
-                <li>Backend Developer - built out all routes delivering all data to the page</li>
-                <li>Built Profile Page</li>
-                <li>Set up and implemented Cloudinary API for image uploads</li>
-                <li>Implemented Chart.js library for data visualization</li>
-                <li>Deployed app to Heroku</li>
-              </ul>
+            <div id="modal2" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">Nice Symposium</h4>
+                <p>An internal project for That's Nice, the Nice Symposium website serves as an information hub for a new series of conferences recently kicked off in Durham. This site draws design inspiration from the family of That's Nice websites, and was built from design comps from our internal Design team.  This project featured a tight deadline, with only about two weeks from concept to launch with new resources and deliverables arriving each day.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul class="col s6">
+                    <li>HubSpot CMS &amp; HubL code</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                  </ul>
+                  <ul class="col s6">
+                    <li>Slick jQuery plugin</li>
+                    <li>Responsive design</li>
+                    <li>Google Custom Search Engine</li>
+                    <li>Custom form solution for lead generation</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Developed page templates and built out all pages with guidance from design team comps.</li>
+                    <li>Created custom jQuery solution to integrate with default HubSpot forms to implement custom fields and enrich lead generation.</li>
+                    <li>Completed full site build-out and deployment within 2-week deadline, adapting to changing requirements and new deliverables up through the last hour.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s6 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a target="_blank" href="https://www.nicesymposium.com/" class="btn-flat col s6 center-align">
+                  <i class="fa fa-external-link">  Visit Nice Symposium</i>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="modal-footer">
-            <a href="#projects" class="btn-flat modal-action modal-close col s4 center-align">
-              <i class="fa fa-close"></i>
-            </a>
-            <a id="clear" target="_blank" href="https://github.com/evwilkin/bankly" class="btn-flat col s4 center-align">
-              <i class="fa fa-github"> GitHub</i>
-            </a>
-            <a target="_blank" href="https://mybankly.herokuapp.com" class="btn-flat col s4 center-align">
-              <i class="fa fa-external-link">  Visit Bankly</i>
-            </a>
-          </div>
+
+
+          <!-- ####### -->
+
+          <div class="row">
+
+            <!-- That's Nice -->
+            <div class="col s12 m6">
+              <img class="materialboxed" src="images/ThatsNice.jpg" />
+              <a class="modal-trigger center-align" href="#modal3">
+                <h3>That's Nice</h3>
+              </a>
+              <p class="center-align">Advertising Agency website</p>
+            </div>
+            <div id="modal3" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">That's Nice</h4>
+                <p>This project was an internal rebuild of our company's website from a fairly plain and text-heavy static site to a more dynamic and interactive design. As our own landing page, we wanted to make it easy to navigate but contain lots of content to showcase case studies and the different abilities of our agency. This project featured lots of back and forth as all major leadership in the company had input and feedback to contribute.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul class="col s6">
+                    <li>HubSpot CMS</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                  </ul>
+                  <ul class="col s6">
+                    <li>bxSlider jQuery plugin</li>
+                    <li>Google Custom Search Engine</li>
+                    <li>CSS Animations</li>
+                    <li>Responsive design</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Implemented jQuery plugin for client logo slideshow on homepage</li>
+                    <li>Collaborated with Design Director to gather feature feedback and manage expectations to keep project on schedule</li>
+                    <li>Built custom solution for displaying contact rows of three after one small change caused entire page to be recoded. New system adapts dynamically if new contacts are added and removed, adjusting each row as needed.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s6 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a target="_blank" href="http://www.thatsnice.com" class="btn-flat col s6 center-align">
+                  <i class="fa fa-external-link">  Visit That's Nice</i>
+                </a>
+              </div>
+            </div>
+            
+            <!-- EPA Federal Facilities Dashboard -->
+            <div class="col s12 m6">
+              <img class="materialboxed" src="images/fedfacts.png" />
+              <a class="modal-trigger center-align" href="#modal4">
+                <h3>EPA Federal Facilities Dashboard</h3>
+              </a>
+              <p class="center-align">Data Visualization Dashboard</p>
+            </div>
+            <div id="modal4" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">EPA Federal Facilities Dashboard</h4>
+                <p>A public dashboard designed to clearly distribute information collected by the Environmental Protection Agency. Data is organized by category, sortable, and linked to corresponding data tables.  Application built and designed in Oracle Application Express (APEX), charts created using AnyChart plugin. Inherited project from previous employee and served as sole developer and main point of contact for client.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul class="col s6">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>SQL</li>
+                  </ul>
+                  <ul class="col s6">
+                    <li>Oracle Application Express</li>
+                    <li>Oracle SQL Developer</li>
+                    <li>PL/SQL</li>
+                    <li>AnyChart</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Frontend Developer - built UI and data visualizations in Oracle Apex</li>
+                    <li>Backend Developer - built queries needed for each chart, including filtering and drill-down options</li>
+                    <li>Client contact - collaborated with clients for direct feedback and continuous iteration</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s6 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a target="_blank" href="https://ofmpub.epa.gov/apex/ffcc/f?p=111:1::::::" class="btn-flat col s6 center-align">
+                  <i class="fa fa-external-link">  Visit Dashboard</i>
+                </a>
+              </div>
+            </div>
+
+          </div> 
         </div>
 
-      </div>
+        <div id="personal">
+          <div class="row">
+            <!-- DevDash -->
+            <div class="col s12 m6">
+              <img class="materialboxed" src="images/devdash.png" />
+              <a class="modal-trigger center-align" href="#modal5">
+                <h3>DevDash</h3>
+              </a>
+              <p class="center-align">A dashboard for developers.</p>
+            </div>
+            <div id="modal5" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">DevDash</h4>
+                <p>A full MEAN-stack app dashboard application created to help boost productivity and track projects and deliverables for developers. Solo project that I created to help keep track of notes, to-do, and project details in one place. Designed with simple aesthetic and dark UI to keep focus on productivity.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul class="col s6">
+                    <li>MongoDB</li>
+                    <li>Express</li>
+                    <li>Angular</li>
+                    <li>Node</li>
+                    <li>Mongoose</li>
+                  </ul>
+                  <ul class="col s6">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                    <li>Heroku</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Frontend/Angular developer - Designed and built single page app user interface with minimalistic approach and approachable layout</li>
+                    <li>Backend developer - Built out MongoDB database and handled all routing and authentication</li>
+                    <li>User - utilize application personally and continue to improve and iterate</li>
+                    <li>Deployment - Deployed app to Heroku</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s4 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a target="_blank" href="https://github.com/evwilkin/developer_dashboard" class="btn-flat col s4 center-align">
+                  <i class="fa fa-github"> GitHub</i>
+                </a>
+                <a target="_blank" href="https://devdash.herokuapp.com/" class="btn-flat col s4 center-align">
+                  <i class="fa fa-external-link">  Visit DevDash</i>
+                </a>
+              </div>
+            </div>
+            
+            <!-- Bankly -->
+            <div class="col s12 m6">
+              <img class="materialboxed" src="images/Bankly.png" />
+              <a class="modal-trigger center-align" href="#modal6">
+                <h3>Bankly</h3>
+              </a>
+              <p class="center-align">Visualize your Spending.</p>
+            </div>
+            <div id="modal6" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">Bankly</h4>
+                <p>A personal finance app built on Ruby on Rails over the course of a week with a team of 4.  Users can create a profile in order to log expenses and enter their monthly budget.  The app then uses data visualization to give monthly breakdowns of expenses organized by category, as well as gives a full ledger of purchases.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul class="col s6">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>SASS</li>
+                    <li>Javascript</li>
+                    <li>Ruby on Rails</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                  </ul>
+                  <ul class="col s6">
+                    <li>Postgres</li>
+                    <li>Sequelize</li>
+                    <li>Heroku</li>
+                    <li>Cloudinary API</li>
+                    <li>Chart.js</li>
+                    <li>fullPage.js</li>
+                    <li>Font Awesome</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Project Manager/GitHub Master</li>
+                    <li>Backend Developer - built out all routes delivering all data to the page</li>
+                    <li>Built Profile Page</li>
+                    <li>Set up and implemented Cloudinary API for image uploads</li>
+                    <li>Implemented Chart.js library for data visualization</li>
+                    <li>Deployed app to Heroku</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s4 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a id="clear" target="_blank" href="https://github.com/evwilkin/bankly" class="btn-flat col s4 center-align">
+                  <i class="fa fa-github"> GitHub</i>
+                </a>
+                <a target="_blank" href="https://mybankly.herokuapp.com" class="btn-flat col s4 center-align">
+                  <i class="fa fa-external-link">  Visit Bankly</i>
+                </a>
+              </div>
+            </div>
 
-      <div class="row">
-        
-        <!-- AdventureTo -->
-        <div class="col s12 m6">
-          <img class="materialboxed" src="images/AdventureTo.png" />
-          <a class="modal-trigger center-align" href="#modal2">
-            <h3>AdventureTo</h3>
-          </a>
-          <p class="center-align">Research, plan, and document your travels.</p>
-        </div>
-        <div id="modal2" class="modal modal-fixed-footer">
-          <div class="row modal-content">
-            <h4 class="center-align">AdventureTo</h4>
-            <p>A full-stack travel app allowing users to create and store wishlists of places to go and things to do, blog journals to document the experiences they've had, and search pictures pulled the Flickr API to inspire their next adventures.</p>
-            <hr />
-            <div class="col s6">
-              <h5>Technologies:</h5>
-              <ul class="col s6">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Materialize</li>
-                <li>Flickr API</li>
-              </ul>
-              <ul class="col s6">
-                <li>Node</li>
-                <li>Express</li>
-                <li>Postgres</li>
-                <li>Sequelize</li>
-                <li>Heroku</li>
-              </ul>
-            </div>
-            <div class="col s6">
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Full stack developer - Designed and built front end user interface, backend database schema and routing</li>
-                <li>Learned and implemented Flickr API</li>
-                <li>Utilized Postgres and Sequalize for data storage</li>
-                <li>Designed front end using Materialize and personal photography</li>
-                <li>Used bcrypt hashing for user authentication</li>
-                <li>Deployed app to Heroku</li>
-              </ul>
-            </div>
           </div>
-          <div class="modal-footer">
-            <a href="#projects" class="btn-flat modal-action modal-close col s4 center-align">
-              <i class="fa fa-close"></i>
-            </a>
-            <a target="_blank" href="https://github.com/evwilkin/travel_app" class="btn-flat col s4 center-align">
-              <i class="fa fa-github"> GitHub</i>
-            </a>
-            <a target="_blank" href="https://adventureto.herokuapp.com" class="btn-flat col s4 center-align">
-              <i class="fa fa-external-link">  Visit AdventureTo</i>
-            </a>
-          </div>
-        </div>
-      
 
-        <!-- Honeymoon -->
-        <div class="col s12 m6">
-          <img class="materialboxed" src="images/honeymoon.png" />
-          <a class="modal-trigger center-align" href="#modal4">
-            <h3>Travel Gallery</h3>
-          </a>
-          <p class="center-align">Italy, Greece, and Iceland - Fall 2015.</p>
-        </div>
-        <div id="modal4" class="modal modal-fixed-footer">
-          <div class="row modal-content">
-            <h4 class="center-align">European Honeymoon Photo Gallery</h4>
-            <p>Erin and I were married in August 2015, and pursuing our love of travel we planned an extended Honeymoon abroad in Europe where we had been separately but never together.  This site was built as a way to share our memories with friends and family through a full-page photo album, as well as a way to learn and practice new technologies.</p>
-            <hr />
-            <div class="col s6">
-              <h5>Technologies:</h5>
-              <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Foundation</li>
-                <li>jQuery</li>
-                <li>fullPage.js</li>
-              </ul>
+          <div class="row">
+            
+            <!-- AdventureTo -->
+            <div class="col s12 m6">
+              <img class="materialboxed" src="images/AdventureTo.png" />
+              <a class="modal-trigger center-align" href="#modal7">
+                <h3>AdventureTo</h3>
+              </a>
+              <p class="center-align">Research, plan, and document your travels.</p>
             </div>
-            <div class="col s6">
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Front end developer - designed and built entire site in a weekend as personal photography portfolio</li>
-                <li>Learned and implemented fullPage.js for album page scrolling</li>
-                <li>Learned and utilized HTML5 video for homepage looping video</li>
-                <li>Photographer - utilized personal photography and videography throughout entire site</li>
-              </ul>
+            <div id="modal7" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">AdventureTo</h4>
+                <p>A full-stack travel app allowing users to create and store wishlists of places to go and things to do, blog journals to document the experiences they've had, and search pictures pulled the Flickr API to inspire their next adventures.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul class="col s6">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>Materialize</li>
+                    <li>Flickr API</li>
+                  </ul>
+                  <ul class="col s6">
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>Postgres</li>
+                    <li>Sequelize</li>
+                    <li>Heroku</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Full stack developer - Designed and built front end user interface, backend database schema and routing</li>
+                    <li>Learned and implemented Flickr API</li>
+                    <li>Utilized Postgres and Sequalize for data storage</li>
+                    <li>Designed front end using Materialize and personal photography</li>
+                    <li>Used bcrypt hashing for user authentication</li>
+                    <li>Deployed app to Heroku</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s4 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a target="_blank" href="https://github.com/evwilkin/travel_app" class="btn-flat col s4 center-align">
+                  <i class="fa fa-github"> GitHub</i>
+                </a>
+                <a target="_blank" href="https://adventureto.herokuapp.com" class="btn-flat col s4 center-align">
+                  <i class="fa fa-external-link">  Visit AdventureTo</i>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#projects" class="btn-flat modal-action modal-close col s4 center-align">
-              <i class="fa fa-close"></i>
-            </a>
-            <a target="_blank" href="https://github.com/evwilkin/front-end-hackathon" class="btn-flat col s4 center-align">
-              <i class="fa fa-github"> GitHub</i>
-            </a>
-            <a target="_blank" href="http://honeymoon.evan-wilkinson.com/" class="btn-flat col s4 center-align">
-              <i class="fa fa-external-link">  Visit Honeymoon Gallery</i>
-            </a>
-          </div>
-        </div>
+          
 
-      </div>
-
-      <div class="row">
-        <h2>Games</h2>
-        <hr />
-
-        <!-- Ludicrous Laws -->
-        <div class="col s12 m6">
-          <img class="materialboxed" src="images/state-facts.png" />
-          <a class="modal-trigger center-align" href="#modal5">
-            <h3>Ludicrous Laws</h3>
-          </a>
-          <p class="center-align">Head-to-head tour of America's craziest laws.</p>
-        </div>
-        <div id="modal5" class="modal modal-fixed-footer">
-          <div class="row modal-content">
-            <h4 class="center-align">Ludicrous Laws</h4>
-            <p>I was inspired to create this game after seeing an article listing some of the weirdest laws in the country that a friend shared with me.  I thought it would be even more fun to get a kick out of the humor in the laws as a head-to-head game providing an entertaining and competitive interactive experience.  This is one of the first games I built, utilizing purely front end technologies including HTML, CSS, Javascript, and jQuery.</p>
-            <hr />
-            <div class="col s6">
-              <h5>Technologies:</h5>
-              <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>jQuery</li>
-                <li>Bootstrap</li>
-                <li>SweetAlert.js</li>
-              </ul>
+            <!-- Honeymoon -->
+            <div class="col s12 m6">
+              <img class="materialboxed" src="images/honeymoon.png" />
+              <a class="modal-trigger center-align" href="#modal8">
+                <h3>Travel Gallery</h3>
+              </a>
+              <p class="center-align">Italy, Greece, and Iceland - Fall 2015.</p>
             </div>
-            <div class="col s6">
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Front end developer - designed and built entire game</li>
-                <li>Used pure CSS to design street signs</li>
-                <li>Utilized jQuery for car animations</li>
-                <li>Used vanilla javascript object constructor to code in game trivia for all 50 states</li>
-              </ul>
+            <div id="modal8" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">European Honeymoon Photo Gallery</h4>
+                <p>Erin and I were married in August 2015, and pursuing our love of travel we planned an extended Honeymoon abroad in Europe where we had been separately but never together.  This site was built as a way to share our memories with friends and family through a full-page photo album, as well as a way to learn and practice new technologies.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>Foundation</li>
+                    <li>jQuery</li>
+                    <li>fullPage.js</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Front end developer - designed and built entire site in a weekend as personal photography portfolio</li>
+                    <li>Learned and implemented fullPage.js for album page scrolling</li>
+                    <li>Learned and utilized HTML5 video for homepage looping video</li>
+                    <li>Photographer - utilized personal photography and videography throughout entire site</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s4 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a target="_blank" href="https://github.com/evwilkin/front-end-hackathon" class="btn-flat col s4 center-align">
+                  <i class="fa fa-github"> GitHub</i>
+                </a>
+                <a target="_blank" href="http://honeymoon.evan-wilkinson.com/" class="btn-flat col s4 center-align">
+                  <i class="fa fa-external-link">  Visit Honeymoon Gallery</i>
+                </a>
+              </div>
             </div>
+
           </div>
-          <div class="modal-footer">
-            <a href="#projects" class="btn-flat modal-action modal-close col s4 center-align">
-              <i class="fa fa-close"></i>
-            </a>
-            <a target="_blank" href="https://github.com/evwilkin/state_facts_game" class="btn-flat col s4 center-align">
-              <i class="fa fa-github"> GitHub</i>
-            </a>
-            <a target="_blank" href="http://states.evan-wilkinson.com/" class="btn-flat col s4 center-align">
-              <i class="fa fa-external-link">  Visit Game</i>
-            </a>
+        </div> 
+
+        <div id="games">
+          <div class="row">
+            <!-- Hi-Lo jQuery -->
+             <div class="col s12 m6">
+              <img class="materialboxed" src="images/HiLoJquery.jpg" />
+              <a class="modal-trigger center-align" href="#modal9">
+                <h3>Hi-Lo Guessing Game</h3>
+              </a>
+              <p class="center-align">A card-based guessing game</p>
+            </div>
+            <div id="modal9" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">Hi-Lo</h4>
+                <p>This is a jQuery-powered version of the classic "Higher/Lower" card-guessing game. I wanted to create a mobile-first attractive experience that utilizes changing graphics and constant feedback to the users. This is a 2-player game, with logic built in to allow you to pass turns to the other player only after scoring 3 correct answers. I utilized the Deck of Cards API (http://deckofcardsapi.com/) for the random card selections and images, and SweetAlerts for the popup boxes.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                    <li>Deck of Cards API</li>
+                    <li>SweetAlert.js</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Front end developer - designed and built entire game</li>
+                    <li>Utilized Deck of Cards API for generating new deck of cards for each game and drawing random card for each turn</li>
+                    <li>Utilized jQuery for AJAX calls, DOM manipulation, and Event Handlers</li>
+                    <li>Implemented SweetAlert.js for more attractive alerts</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s4 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a target="_blank" href="https://github.com/evwilkin/hi-lo" class="btn-flat col s4 center-align">
+                  <i class="fa fa-github"> GitHub</i>
+                </a>
+                <a target="_blank" href="https://evwilkin.github.io/hi-lo/" class="btn-flat col s4 center-align">
+                  <i class="fa fa-external-link">  Play Hi-Lo</i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Ludicrous Laws -->
+            <div class="col s12 m6">
+              <img class="materialboxed" src="images/state-facts.png" />
+              <a class="modal-trigger center-align" href="#modal10">
+                <h3>Ludicrous Laws</h3>
+              </a>
+              <p class="center-align">Head-to-head tour of America's craziest laws.</p>
+            </div>
+            <div id="modal10" class="modal modal-fixed-footer">
+              <div class="row modal-content">
+                <h4 class="center-align">Ludicrous Laws</h4>
+                <p>I was inspired to create this game after seeing an article listing some of the weirdest laws in the country that a friend shared with me.  I thought it would be even more fun to get a kick out of the humor in the laws as a head-to-head game providing an entertaining and competitive interactive experience.  This is one of the first games I built, utilizing purely front end technologies including HTML, CSS, Javascript, and jQuery.</p>
+                <hr />
+                <div class="col s6">
+                  <h5>Technologies:</h5>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>SweetAlert.js</li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <h5>Responsibilities:</h5>
+                  <ul>
+                    <li>Front end developer - designed and built entire game</li>
+                    <li>Used pure CSS to design street signs</li>
+                    <li>Utilized jQuery for car animations</li>
+                    <li>Used vanilla javascript object constructor to code in game trivia for all 50 states</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#portfolio" class="btn-flat modal-action modal-close col s4 center-align">
+                  <i class="fa fa-close"></i>
+                </a>
+                <a target="_blank" href="https://github.com/evwilkin/state_facts_game" class="btn-flat col s4 center-align">
+                  <i class="fa fa-github"> GitHub</i>
+                </a>
+                <a target="_blank" href="http://states.evan-wilkinson.com/" class="btn-flat col s4 center-align">
+                  <i class="fa fa-external-link">  Visit Game</i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -573,13 +634,21 @@
       </div>
       <h4 class="center-align">
         R&eacute;sum&eacute;:
-        <a target="_blank" href="https://resume.creddle.io/resume/d2couuaov1p">Online</a> 
-        <a target="_blank" href="https://www.dropbox.com/s/sc79xg0slxuamut/EvanWilkinson_Resume.pdf?dl=0">PDF</a>
-        <!-- <a target="_blank" href="https://www.dropbox.com/s/h6l4ug43vtbmpy2/Evan_Wilkinson.docx?dl=0">Plain Text</a> -->
+        <a role="button" tab-index="0" id="showResume">
+          <span class="resume">View</span>
+          <span class="resume hide">Hide</span>
+        </a>
+        <a target="_blank" href="https://www.dropbox.com/s/buoyna2radvtkwq/EvanWilkinson_Resume.pdf">PDF</a>
+        <a target="_blank" href="https://www.dropbox.com/s/sc79xg0slxuamut/EvanWilkinson_Resume.pdf?dl=1">Download</a>
+        <br />
+        <object class="resume hide" data="images/EvanWilkinson_Resume.pdf" type="application/pdf" width="100%" height="800px"> 
+          <p>It appears you don't have a PDF plugin for this browser. No problem... you can <a href="https://www.dropbox.com/s/sc79xg0slxuamut/EvanWilkinson_Resume.pdf?dl=1">click here to
+          download the PDF file.</a></p>  
+        </object>
       </h4>
-      <h4 id="contactMe" class="center-align">
+      <p id="contactMe" class="center-align">
         <strong><a href="#contact">Contact me</a></strong> to discuss how we can work together on your next great project.
-      </h4>
+      </p>
       <hr id="abouthr" />
       <div id="skills" class="flow-text">
         <h4 class="center-align">Technologies:</h4>

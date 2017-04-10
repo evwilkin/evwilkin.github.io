@@ -34,9 +34,23 @@ $(document).ready(function(){
     }
   });
 
+  // Change photo on hover
   $("#portrait").hover(function() {
     $(this).attr("src", "images/school.jpg");
   }, function() {
     $(this).attr("src", "images/GA_Headshot.jpg");
   });
+
+  // Hide/show resume on page
+  $("#showResume").on("click", function() {
+    $(".resume").toggleClass("hide");
+  });
+
+  // Mobile Nav fix
+  $('.side-nav').css('left', '0');
+  $(".side-nav li").on('click', function() {
+    setTimeout(function() {
+        $("#sidenav-overlay").trigger('click');
+    },10);
+});
 });
