@@ -286,6 +286,10 @@ nav > .nav-wrapper > .side-nav {
   #skills img {
     margin-bottom: -10px;
   }
+
+  .modal-content li {
+    list-style-type: none;
+  }
 }
 
 @media (max-width: 890px) {
